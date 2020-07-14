@@ -61,7 +61,11 @@
 
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  |  |  |  |
+  | Program will collect three integers from the user. |  |  |
+  | Program will evaluate whether the inputted integers make up the sides of an equilateral triangle. |  |  |
+  | Program will evaluate whether the inputted integers make up the sides of an isosceles triangle. |  |  |
+  | Program will evaluate whether the inputted integers make up the sides of a scalene triangle. |  |  |
+  | Program will evaluate whether the inputted integers can create a triangle at all. |  |  |
   
 
 ## Known Bugs
