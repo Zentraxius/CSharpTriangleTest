@@ -21,10 +21,10 @@ namespace TriangleTracker.Tests
     }
 
     [TestMethod]
-    public void Isosceles_CheckIfTriangleIsosceles_True()
+    public void IsIsosceles_CheckIfTriangleIsIsosceles_True()
     {
-      Triangle triangle = new Triangle(5,6,7);
-      Assert.AreEqual(true, triangle.isosceles());
+      Triangle triangle = new Triangle(5,5,7);
+      Assert.AreEqual(true, triangle.IsIsosceles());
     }
   }
 }
