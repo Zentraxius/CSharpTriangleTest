@@ -1,6 +1,6 @@
-# [Program Title]
+# Triangle Tracker
 
-  ### By [Author(s)]
+  ### By Evgeniya Chernaya, Johnny Duverseau, Cody Fritz, & Taylor Somers
 
 ## Description
 
@@ -70,9 +70,11 @@
 
 ### Contributors
 
+  * Evgeniya Chernaya
+  * Johnny Duverseau
+  * Cody Fritz
   * Taylor Somers
-  * [Other Contributor(s): Anyone who contributed at least %5 of the total product.]
 
 ### License
 
-This website is licensed under the GNU General Public License GPLv3. (C) 2020 Taylor Somers. All rights reserved.
+This website is licensed under the GNU General Public License GPLv3. (C) 2020 Evgeniya Chernaya, Johnny Duverseau, Cody Fritz, Taylor Somers. All rights reserved.
