@@ -4,18 +4,13 @@
 
 ## Description
 
-  [Description of program functionality & intent presented as an elevator pitch.]
+The application that takes three numbers and answer if it is a triangle, and what type of triangle it is.
 
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * Bootstrap
-  * CSS
-  * HTML
-  * JavaScript
-  * jQuery
-  * Node
-  * WebPack
+  * C#
+  * .NET
 
   ### Operating Systems & Programs
   * Brave
@@ -23,49 +18,31 @@
   * Google Chrome
   * Microsoft Windows 10
   * Visual Studio Code
+  * .NET Core
 
 ## Installation
 
   1.  Download a web browser, such as Apple Safari, Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-  2.  Navigate to [repository].
+  2.  Navigate to https://github.com/taylorsomers/CSharpTriangleTest.
   3.  Click the green "Clone or download" button at the right of the screen.
   4.  Select "Download ZIP."
   5.  Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
-  6.  Open the directory containing the extracted files.
-  7.  Open your computer's terminal and navigate to the directory bearing the name of the program and containing the top level subdirectories and files.
-  8.  Enter the command "$ npm install" in the terminal and press "Enter".
-  9.  Follow the "Instructions for Obtaining an API Key" section below to obtain your unique API key for [API(s)].
-  10.  Enter the command "$ npm run build" in the terminal and press "Enter".
-  11. Enter the command "$ npm run start" in the terminal and press "Enter".
-  12. The program should open and run with its user interface accessible in your default web browser.
-
-  ### Instructions for Obtaining an API Key
-
-    1.  Download a web browser, such as Apple Safari, Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-    2.  Navigate to [API webpage].
-    3.  Click the button to sign up for a new account or sign in to your existing account.
-    4.  Navigate to the section of the API webpage that contains your API key.
-    5.  Copy your API key.
-    6.  Return to your cloned or downloaded copy of the program you are setting up and open the terminal.
-    7.  Make sure you have entered the root menu of the program directory.
-    8.  Enter "$ touch .env" into the terminal.
-    9.  Open the .env file you have just created and type "API_KEY = " into the file.
-    10. Paste your copied API key into the .env file directly after "API_KEY = ".
-    11. Review any JavaScript files (*i.e.*, those ending in ".js") in the src subdirectory of the program directory for API calls from the API from which you have obtained the key.
-    12. In any of the API calls, identify the section of the API URL that contains the sequence "appid=[API-KEY-GOES-HERE]".
-    13. Replace "[API-KEY-GOES-HERE]" with "${process.env.API_KEY}".
-    14. Make sure all files in the program directory and subdirectories are saved.
-    15. Repeat this process for any other APIs that are called in the program.
+  6.  In your browser, navigate to https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.106-macos-x64-installer for Mac or https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.203-windows-x64-installer for Windows and click the link "click here to download manually" if the download for .NET Core 2.2 SDK does not start automatically.
+  7.  Double-click the downloaded .NET Core 2.2 SDK file and run the installer.
+  8.  Open your computer's terminal and navigate to the directory bearing the name of the program and containing the top level subdirectories and files.
+  9.  Enter the command "dotnet build" in the terminal.
+  10. Enter the command "dotnet run" in the terminal. The program should begin to run in the console.
+  
 
 ## Specifications
 
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  | Program will collect three integers from the user. |  |  |
-  | Program will evaluate whether the inputted integers make up the sides of an equilateral triangle. |  |  |
-  | Program will evaluate whether the inputted integers make up the sides of an isosceles triangle. |  |  |
-  | Program will evaluate whether the inputted integers make up the sides of a scalene triangle. |  |  |
-  | Program will evaluate whether the inputted integers can create a triangle at all. |  |  |
+  | Program will collect three integers from the user. | 5, 4, 6 | Triangle object with side1 = 5, side2 = 4, side3 = 6|
+  | Program will evaluate whether the inputted integers make up the sides of an equilateral triangle. | 5, 5, 5 | true |
+  | Program will evaluate whether the inputted integers make up the sides of an isosceles triangle. | 3, 4, 3 | true |
+  | Program will evaluate whether the inputted integers make up the sides of a scalene triangle. | 8, 4, 9 | true |
+  | Program will evaluate whether the inputted integers can create a triangle at all. | 23, 5, 7 | false |
   
 
 ## Known Bugs
