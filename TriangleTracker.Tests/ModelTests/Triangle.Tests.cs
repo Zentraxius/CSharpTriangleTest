@@ -7,6 +7,17 @@ namespace TriangleTracker.Tests
   public class BusinessLogicTests
   {
     [TestMethod]
-    // Test method will go here
+    public void Triangle_CreatingTriangleObject_TriangleObject()
+    {
+      Triangle triangle = new Triangle(2, 3, 4);
+      Assert.AreEqual(3, triangle.Side2);
+    }
+
+    /*[TestMethod]
+    public void IsEquilateral_CheckIfTriangleIsEquilateral_True()
+    {
+      Triangle triangle = new Triangle()
+      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+    }*/
   }
 }
