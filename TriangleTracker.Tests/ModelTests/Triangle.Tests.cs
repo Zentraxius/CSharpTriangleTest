@@ -33,5 +33,12 @@ namespace TriangleTracker.Tests
       Triangle triangle = new Triangle(5,5,5);
       Assert.AreEqual(true, triangle.IsTriangle());
     }
+
+    [TestMethod]
+    public void IsTriangle_CheckIfInputIsNotTriangle_False()
+    {
+      Triangle triangle = new Triangle(20,10,10);
+      Assert.AreEqual(false, triangle.IsTriangle());
+    }
   }
 }
